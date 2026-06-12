@@ -14,3 +14,5 @@ class Producer{
       topic.publish({id: crypto.randomUUID(), payload,timestamp: Date.now()});
    }
 }
+
+export  = Producer;
