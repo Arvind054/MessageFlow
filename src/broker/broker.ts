@@ -15,3 +15,5 @@ class Broker{
         return this.topics.get(topicName);
     }
 }
+
+export  = Broker;
